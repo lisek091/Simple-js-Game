@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="gra.js"></script>
+    <title>Kolko i Krzyzk</title>
+  </head>
+  <body>
+    <h1>Kółko i Krzyżyk gra 1vs1</h1>
+    <div class="wiersz" id="buttons">
+      <button class="button" onclick="start()">Start</button>
+      <button class="button" onclick="reset()">Reset</button>
+      <button class="button graczy2">2 Gracze</button>
+      <button class="button si">SI</button>
+    </div>
+    <main>
+      <div class="box" id="box">
+        <div class="wiersz" id="wiersz1">
+          <div class="blok" id="blok1" onclick="targetClick(this.id)">1</div>
+          <div class="blok" id="blok2" onclick="targetClick(this.id)">2</div>
+          <div class="blok" id="blok3" onclick="targetClick(this.id)">3</div>
+        </div>
+        <div class="wiersz" id="wiersz2">
+          <div class="blok" id="blok4" onclick="targetClick(this.id)">4</div>
+          <div class="blok" id="blok5" onclick="targetClick(this.id)">5</div>
+          <div class="blok" id="blok6" onclick="targetClick(this.id)">6</div>
+        </div>
+        <div class="wiersz" id="wiersz3">
+          <div class="blok" id="blok7" onclick="targetClick(this.id)">7</div>
+          <div class="blok" id="blok8" onclick="targetClick(this.id)">8</div>
+          <div class="blok" id="blok9" onclick="targetClick(this.id)">9</div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

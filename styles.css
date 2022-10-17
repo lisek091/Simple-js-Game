@@ -1,0 +1,49 @@
+* {
+  background-color: darkgrey;
+}
+.blok {
+  background-color: bisque;
+  color: rgb(59, 34, 202);
+  font-size: 100px;
+  border: 2px;
+  border-color: black;
+  border-style: groove;
+  padding: 25px;
+  margin: 25px;
+  min-width: 120px;
+  min-height: 120px;
+  text-align: center;
+}
+.blok:hover {
+  background-color: rgb(81, 81, 207);
+  color: brown;
+}
+.wiersz {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  display: block;
+  pointer-events: none;
+  background-color: brown;
+}
+.button {
+  width: 130px;
+  height: 50px;
+  text-align: center;
+}
+.button:hover {
+  background-color: coral;
+}
+h1 {
+  text-align: center;
+}
+#buttons {
+  justify-content: space-evenly;
+}
+.graczy2 {
+  background-color: chartreuse;
+}
+.si {
+  background-color: crimson;
+}
